@@ -52,11 +52,11 @@ h2 {
 }
 
 .app-description {
-    padding: 120px 0 0 60px;
+    padding: 120px 60px;
 }
 
 .weather-app-description {
-    padding: 120px 60px 0 0;
+    padding: 120px 60px;
 }
 
 h2.app{
