@@ -25,6 +25,15 @@ h2 {
     text-align: center;
 }
 
+p {
+  font-family: var(--default-font-family);  
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .button-container{
     display: flex;
     justify-content: center;
@@ -55,55 +64,49 @@ h2 {
     padding: 120px 60px;
 }
 
-h2.app{
+h2.content {
     text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+h2.app {
     font-size: 36px;
 }
 
-p {
-  font-family: var(--default-font-family);  
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: center;
+h2.about {
+    padding: 20px 20px 0 20px;
+}
+
+h2.projects {
+    text-align: center;
+}
+
+h2.contact {
+    text-align: center;
+}
+
+p.content {
+    text-align: left;
+    padding: 0 20px;
 }
 
 p.app {
-  text-align: left;
   padding: 20px 0;
 }
 
-h2.about {
-  font-family: var(--default-font-family);  
-  padding: 20px 20px 0 20px;
-  border-radius: 4px;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: left;
+p.projects {
+    font-size: 14px;
 }
 
-p.about {
-    text-align: left;
-    padding: 0 20px;
+p.contact {
+    text-align: center;
 }
 
 img.about {
     margin-top: 95px;
 }
 
-h2.projects {
-  font-family: var(--default-font-family);  
-  padding: 20px 20px 0 20px;
-  border-radius: 4px;
-  font-size: 20px;
-  line-height: 1.5;
-}
-
-p.projects {
-    padding: 0 20px;
-    font-size: 14px;
-}
 
 @media (max-width: 960px) {
     .app-description {
