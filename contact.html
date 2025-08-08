@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="../styles/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -17,38 +17,59 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #7b9acc;">
-  <h2 class="orla-brand">Orla Reynolds</h2>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="projects.html">My Work</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact me</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+            <div class="container-fluid">
+                <a class="orla-brand" href="../index.html">Orla Reynolds</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../projects.html">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact.html">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div class="hero">
-            <h1>Lets get in Touch</h1>
+            <h1>Let's get in Touch</h1>
+             <div class="button-container">
+                <a href="../index.html" class="btn btn-branding">Homepage</a>
+            </div>
+        </div>
+        <div class="container">
             <h2 class="content contact mt-5">Email</h2>
             <p class="content contact"><a href="mailto:orla@gmail.com">orla@gmail.com</a></p>
             <h2 class="content contact">Instagram</h2>
             <p class="content contact"><a href="https://www.instragram.com/orlacodes" target="_blank">@orlacodes</a></p>
-            <h2 class="content contact">LinkedIn</h2>
-            <p class="content contact"><a href="http://www.linkedin.com/in/orlareynolds" target="_blank">Orla Reynolds</a></p>
-             <div class="button-container">
-                <a href="/index.html" class="btn btn-branding">Homepage</a>
-            </div>
+            <h2 class="content contact">GitHub</h2>
+            <p class="content contact"><a href="http://www.github.com/orla-rey" target="_blank">Orla Reynolds</a></p>
+            <footer>
+                <div class="contact-box d-flex justify-content-between mb-5">
+                        <div>
+                            <h2 class="contact-box mt-3">Work Inquiry</h2>
+                            <p class="contact-box">Let's work together!</p>
+                        </div>
+                        <div>        
+                            <button type="button" class="btn btn-branding"><a href="mailto:orla@gmail.com">Let's Talk</a></button>
+                        </div>  
+                </div>          
+                <div class="d-flex justify-content-center">
+                    <a href="mailto:orla@gmail.com" class="email-link">orla@gmail.com</a>
+                 </div>
+                <div class="social-links d-flex justify-content-center">
+                    <a href="https://www.instagram.com/orlacodes"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://github.com/orla-rey"><i class="fa-brands fa-square-github"></i></a>
+                </div>    
+            </footer>
         </div>
     </body>
