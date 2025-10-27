@@ -145,6 +145,11 @@ footer {
     margin: 60px 0;
 }
 
+.footer-container {
+    background-color: var(--secondary-color);
+    width: 100%;
+}
+
 .contact-box {
     background-color: var(--secondary-color);
     padding: 30px;
@@ -174,11 +179,11 @@ footer {
     font-size: 30px;
 }
 
-.social-links:hover a{
+.social-links a:hover {
     color: #243b5e;
 }
 
-.social-links:visited a{
+.social-links a:visited {
     color: var(--primary-color);
 }
 
