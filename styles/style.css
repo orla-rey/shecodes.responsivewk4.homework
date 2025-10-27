@@ -145,6 +145,15 @@ footer {
     margin: 60px 0;
 }
 
+.portfolio a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.portfolio p {
+    text-align: center;
+    padding: 0;
+}
 
 .contact-box {
     background-color: var(--secondary-color);
@@ -168,7 +177,17 @@ footer {
     margin-bottom: 0;
 }
 
-.social-links a{
+.contact-links a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 36px;
+}
+
+.contact-links a:hover {
+    color: #243b5e;
+}
+
+.social-links a {
     margin: 0 20px;
     color: var(--primary-color);
     padding: 10px;
