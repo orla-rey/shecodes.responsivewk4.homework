@@ -32,7 +32,20 @@
     background-position: left;
 }
 
-h1 {
+.secondary-hero {
+    background: var(--secondary-color);
+    padding: 40px 20px;
+}
+
+.title {
+    color: var(--primary-color);
+    font-family: var(--title-font-family);
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hero-title {
     color: var(--primary-color);
     font-family: var(--title-font-family);
     font-weight: bold;
@@ -65,6 +78,7 @@ p {
 .btn-inquire {
     display: flex;
     justify-content: center;
+    margin: 20px 0;
 }
 
 .btn-branding {   
@@ -153,24 +167,11 @@ footer {
     margin-bottom: 0;
 }
 
-footer .email-link {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    text-align: center;
-}
-
-.email-link:hover {
-    color: var(--primary-color);
-}
-
-.email-link:visited {
-    color: black;
-}
-
-footer .social-links a{
+.social-links a{
     margin: 0 20px;
     color: var(--primary-color);
+    padding: 10px;
+    font-size: 30px;
 }
 
 .social-links:hover a{
@@ -179,6 +180,21 @@ footer .social-links a{
 
 .social-links:visited a{
     color: var(--primary-color);
+}
+
+.git-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.git-link:visited {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+footer .footer-content {
+    text-align: center;
+    font-size: 11px;
 }
 
 
